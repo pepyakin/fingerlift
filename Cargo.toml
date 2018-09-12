@@ -1,0 +1,16 @@
+[package]
+name = "fingerlift"
+version = "0.1.0"
+authors = ["Sergey Pepyakin <s.pepyakin@gmail.com>"]
+
+[dependencies]
+parity-wasm = "0.31"
+libc = "0.2.2"
+lazy_static = "1.1"
+byteorder = "1.2"
+capstone = "0.4"
+x86asm = { path = "rust-x86asm" }
+wabt = "0.4"
+
+[dev-dependencies]
+assert_matches = "1.2"
